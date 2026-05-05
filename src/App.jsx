@@ -46,6 +46,11 @@ function WhyNovember() {
             The movement asks communities to learn it, question it, use it, and shape it with
             human-centered values.
           </p>
+          <p className="mt-5 text-lg leading-8 text-slate-200">
+            Following Cybersecurity Awareness Month in October, AI Awareness Month in November
+            creates a natural civic learning sequence: protect, understand, and shape the
+            technologies transforming public life.
+          </p>
         </motion.div>
       </div>
     </section>
