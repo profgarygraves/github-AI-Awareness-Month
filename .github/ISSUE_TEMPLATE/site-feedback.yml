@@ -1,0 +1,41 @@
+name: Site feedback
+description: Share feedback on the AI Awareness Month website or movement language.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping shape AI Awareness Month. Please share what you noticed, what felt strong, and what could be clearer.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Feedback area
+      options:
+        - Movement message
+        - Website design
+        - H.U.M.A.N.S. Principles
+        - 30 Days calendar
+        - Toolkit resources
+        - Proclamation language
+        - Join form
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback
+      description: What should be improved, clarified, added, or reconsidered?
+    validations:
+      required: true
+  - type: textarea
+    id: suggested-copy
+    attributes:
+      label: Suggested wording
+      description: If you have proposed language, paste it here.
+  - type: input
+    id: affiliation
+    attributes:
+      label: Optional affiliation
+      description: College, agency, organization, business, or community role.

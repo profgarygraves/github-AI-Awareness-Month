@@ -33,7 +33,7 @@ npm run preview
 This site is configured for a GitHub Pages project site at:
 
 ```text
-https://garygraves.github.io/github-AI-Awareness-Month/
+https://profgarygraves.github.io/github-AI-Awareness-Month/
 ```
 
 The Vite `base` path is set in `vite.config.js`:
@@ -60,7 +60,13 @@ Most repeatable content lives in `src/data`:
 - `src/data/humans.js` updates the H.U.M.A.N.S. Principles.
 - `src/data/events.js` updates event ideas by audience.
 
-The join form in `src/components/JoinForm.jsx` is a static placeholder. Replace it with a Tally, Google Form, Formspree, or other embed when signup collection is ready.
+The join form in `src/components/JoinForm.jsx` validates required fields, stores submissions in browser local storage, and can export those saved responses as JSON from the page. This is useful for demos and in-person collection, but browser storage is not a shared database.
+
+For centralized public collection, set `formEndpoint` in `src/data/form.js` to a Formspree-compatible JSON endpoint or replace the form with a Tally or Google Forms embed. Do not put a private GitHub token in client-side code.
+
+## Collecting Feedback
+
+The repository includes a GitHub issue template for structured site feedback. Share the repository link and ask reviewers to open a "Site feedback" issue with comments on the movement message, design, principles, toolkit, proclamation language, or form.
 
 ## Credits
 

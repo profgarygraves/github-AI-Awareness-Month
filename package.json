@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "homepage": "https://garygraves.github.io/github-AI-Awareness-Month/",
+  "homepage": "https://profgarygraves.github.io/github-AI-Awareness-Month/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
