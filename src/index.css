@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #050816;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+body::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  content: '';
+  background:
+    linear-gradient(115deg, rgba(35, 211, 255, 0.08), transparent 34%),
+    linear-gradient(250deg, rgba(139, 92, 246, 0.11), transparent 38%),
+    #050816;
+}
+
+section {
+  scroll-margin-top: 88px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.72;
+}
+
+@layer components {
+  .section-pad {
+    @apply py-20 sm:py-24 lg:py-28;
+  }
+}
+
+.digital-orb {
+  animation: orbPulse 5s ease-in-out infinite;
+}
+
+.digital-orb::before,
+.digital-orb::after {
+  position: absolute;
+  inset: -18%;
+  border: 1px solid rgba(35, 211, 255, 0.28);
+  border-radius: 9999px;
+  content: '';
+}
+
+.digital-orb::before {
+  transform: rotateX(66deg) rotateZ(20deg);
+}
+
+.digital-orb::after {
+  transform: rotateY(62deg) rotateZ(-24deg);
+}
+
+.flame {
+  animation: flameRise 4.5s ease-in-out infinite;
+  filter: drop-shadow(0 0 28px rgba(35, 211, 255, 0.56));
+}
+
+@keyframes orbPulse {
+  0%,
+  100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.035);
+  }
+}
+
+@keyframes flameRise {
+  0%,
+  100% {
+    border-radius: 52% 48% 45% 55% / 64% 58% 42% 36%;
+    transform: translate(-50%, -46%) rotate(-2deg) scale(1);
+  }
+  50% {
+    border-radius: 44% 56% 52% 48% / 70% 52% 48% 30%;
+    transform: translate(-50%, -50%) rotate(3deg) scale(1.04);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.001ms !important;
+  }
+}
