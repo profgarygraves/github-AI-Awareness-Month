@@ -18,9 +18,9 @@ export default function AboutMovement() {
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <SectionTitle eyebrow="About the Movement" title="The Future Should Be Shaped by People" align="left">
             AI Awareness Month began as a grassroots education and workforce initiative inspired
-            by the California Community Colleges AI Fellows Program. The goal is to help every
-            community understand artificial intelligence, use it responsibly, and prepare for an
-            AI-shaped future.
+            by the California Community Colleges AI Fellows Program. The first imagined scale was
+            California's 116 community colleges and beyond. The goal is to help every community
+            move from curiosity to capability with AI while promoting responsible, ethical use.
           </SectionTitle>
           <div className="grid gap-4 sm:grid-cols-2">
             {communities.map(([label, Icon]) => (

@@ -8,11 +8,11 @@ AI is no longer a future issue. It is a public literacy, workforce, ethics, educ
 
 The movement is broader than any single company. November 30 is recognized because the public launch of ChatGPT on November 30, 2022 marked a turning point in public awareness of generative AI.
 
-Following Cybersecurity Awareness Month in October, AI Awareness Month in November creates a natural civic learning sequence: protect, understand, and shape the technologies transforming public life.
+Following Cybersecurity Awareness Month in October, AI Awareness Month in November creates a natural civic learning sequence. October helps communities focus on risk, safety, and protection. November can help communities move from fear to empowerment: protect yourself, then empower yourself.
 
 ## Inspiration
 
-AI Awareness Month began as a grassroots education and workforce initiative inspired by the California Community Colleges AI Fellows Program and the Chancellor's Office focus on human-centered AI grounded in equity, accountability, privacy, transparency, student success, and access.
+AI Awareness Month began as a grassroots education and workforce initiative inspired by the California Community Colleges AI Fellows Program and the Chancellor's Office focus on human-centered AI grounded in equity, accountability, privacy, transparency, student success, and access. The first imagined scale was California's 116 community colleges and beyond, with campuses able to start small, even with a single event or workshop, and build over time.
 
 ## Local Install
 

@@ -48,8 +48,9 @@ function WhyNovember() {
           </p>
           <p className="mt-5 text-lg leading-8 text-slate-200">
             Following Cybersecurity Awareness Month in October, AI Awareness Month in November
-            creates a natural civic learning sequence: protect, understand, and shape the
-            technologies transforming public life.
+            creates a natural civic learning sequence. October helps communities focus on risk,
+            safety, and protection. November can help communities move from fear to empowerment:
+            protect yourself, then empower yourself.
           </p>
         </motion.div>
       </div>
@@ -88,7 +89,7 @@ function FinalCta() {
         <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-200">
           This November, host a workshop, start a conversation, issue a proclamation, teach one AI
           lesson, help one small business, or invite your community to explore what human-centered
-          AI can make possible.
+          AI can make possible. Start small, even with a single event, and build over time.
         </p>
         <a
           href="#join"
