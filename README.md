@@ -60,9 +60,7 @@ Most repeatable content lives in `src/data`:
 - `src/data/humans.js` updates the H.U.M.A.N.S. Principles.
 - `src/data/events.js` updates event ideas by audience.
 
-The join form in `src/components/JoinForm.jsx` validates required fields, stores submissions in browser local storage, and can export those saved responses as JSON from the page. This is useful for demos and in-person collection, but browser storage is not a shared database.
-
-For centralized public collection, set `formEndpoint` in `src/data/form.js` to a Formspree-compatible JSON endpoint or replace the form with a Tally or Google Forms embed. Do not put a private GitHub token in client-side code.
+The join form in `src/components/JoinForm.jsx` embeds the AI Awareness Month Google Form and includes a direct link fallback for people who prefer to open the form in a new tab.
 
 ## Collecting Feedback
 
