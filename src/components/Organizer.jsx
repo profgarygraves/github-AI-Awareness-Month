@@ -20,15 +20,26 @@ export default function Organizer() {
             literacy, entrepreneurship, workforce development, creativity, and practical learning
             for students, educators, small businesses, and communities.
           </p>
-          <a
-            href="https://ggraves.faculty.fullcoll.edu/"
-            target="_blank"
-            rel="noreferrer"
-            className="mt-6 inline-flex items-center gap-2 rounded-full border border-aurora/40 px-5 py-3 text-sm font-semibold text-aurora transition hover:bg-aurora hover:text-night"
-          >
-            <ExternalLink className="h-4 w-4" aria-hidden="true" />
-            Visit Faculty Page
-          </a>
+          <div className="mt-6 flex flex-wrap gap-3">
+            <a
+              href="https://ggraves.faculty.fullcoll.edu/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-aurora/40 px-5 py-3 text-sm font-semibold text-aurora transition hover:bg-aurora hover:text-night"
+            >
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+              Faculty Page
+            </a>
+            <a
+              href="https://www.linkedin.com/in/garygraves"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 rounded-full border border-ember/40 px-5 py-3 text-sm font-semibold text-ember transition hover:bg-ember hover:text-night"
+            >
+              <ExternalLink className="h-4 w-4" aria-hidden="true" />
+              LinkedIn
+            </a>
+          </div>
         </article>
       </div>
     </section>
