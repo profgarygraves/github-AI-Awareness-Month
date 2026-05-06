@@ -14,6 +14,8 @@ Following Cybersecurity Awareness Month in October, AI Awareness Month in Novemb
 
 AI Awareness Month began as a grassroots education and workforce initiative inspired by the California Community Colleges AI Fellows Program and the Chancellor's Office focus on human-centered AI grounded in equity, accountability, privacy, transparency, student success, and access. The first imagined scale was California's 116 community colleges and beyond, with campuses able to start small, even with a single event or workshop, and build over time.
 
+The effort is organized by Professor Gary Graves, a tenured business and entrepreneurship professor at Fullerton College and a California Community Colleges Chancellor's Office AI Fellow. Learn more at https://ggraves.faculty.fullcoll.edu/.
+
 ## Local Install
 
 ```bash

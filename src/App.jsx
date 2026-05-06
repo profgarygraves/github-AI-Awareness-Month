@@ -7,6 +7,7 @@ import Hero from './components/Hero';
 import HumansPrinciples from './components/HumansPrinciples';
 import JoinForm from './components/JoinForm';
 import Navbar from './components/Navbar';
+import Organizer from './components/Organizer';
 import Pillars from './components/Pillars';
 import Proclamation from './components/Proclamation';
 import SectionTitle from './components/SectionTitle';
@@ -110,6 +111,7 @@ export default function App() {
         <Hero />
         <WhyNovember />
         <AboutMovement />
+        <Organizer />
         <HumansPrinciples />
         <Pillars />
         <Calendar />
