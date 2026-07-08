@@ -6,8 +6,8 @@ export default function Pillars() {
   return (
     <section id="pillars" className="section-pad">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionTitle eyebrow="Five Pillars" title="Five Pillars of AI Awareness">
-          AI Awareness Month gives communities a practical way to move beyond hype and fear
+        <SectionTitle eyebrow="Five Pillars" title="Five Pillars of AI Literacy">
+          AI Literacy Month gives communities a practical way to move beyond hype and fear
           toward shared literacy, agency, and responsible use.
         </SectionTitle>
         <div className="mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-5">

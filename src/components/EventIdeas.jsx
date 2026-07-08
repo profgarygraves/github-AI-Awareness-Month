@@ -8,7 +8,7 @@ export default function EventIdeas() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <SectionTitle eyebrow="Host an Event" title="Event Ideas for Every Community">
           Colleges, chambers, schools, libraries, cities, counties, workforce boards, nonprofits,
-          small businesses, and public agencies can all bring AI awareness to life.
+          small businesses, and public agencies can all bring AI literacy to life.
         </SectionTitle>
         <div className="mt-14 grid gap-5 lg:grid-cols-4">
           {eventIdeas.map((group) => (

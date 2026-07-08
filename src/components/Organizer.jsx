@@ -6,7 +6,7 @@ export default function Organizer() {
     <section id="organizer" className="section-pad border-y border-white/10 bg-white/[0.035]">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.78fr_1.22fr] lg:px-8">
         <SectionTitle eyebrow="Organizer" title="Organized by Professor Gary Graves" align="left">
-          AI Awareness Month is being organized by Professor Gary Graves, who is recruiting
+          AI Literacy Month is being organized by Professor Gary Graves, who is recruiting
           founding colleges, civic partners, educators, chambers, agencies, and community leaders
           to help shape the effort.
         </SectionTitle>

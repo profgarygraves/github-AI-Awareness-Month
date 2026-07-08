@@ -8,10 +8,10 @@ export default function Footer() {
           <span className="flex h-9 w-9 items-center justify-center rounded-full border border-aurora/40 bg-aurora/10">
             <Sparkles className="h-4 w-4 text-aurora" aria-hidden="true" />
           </span>
-          <span className="font-display font-semibold">AI Awareness Month</span>
+          <span className="font-display font-semibold">AI Literacy Month</span>
         </div>
         <p className="max-w-3xl leading-7">
-          AI Awareness Month is an independent grassroots awareness initiative inspired by public
+          AI Literacy Month is an independent grassroots literacy initiative inspired by public
           education, workforce readiness, and human-centered AI principles.
         </p>
       </div>

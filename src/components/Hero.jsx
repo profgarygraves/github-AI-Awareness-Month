@@ -9,9 +9,9 @@ const actions = [
 ];
 
 const tags = [
-  'AI is here. Awareness is the first step.',
+  'AI is here. Literacy is the first step.',
   'Learn it. Question it. Use it. Shape it.',
-  'Human-centered AI starts with awareness.',
+  'Human-centered AI starts with literacy.',
   'A month to prepare every community for an AI-shaped future.',
 ];
 
@@ -29,10 +29,10 @@ export default function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-ember/40 bg-ember/10 px-4 py-2 text-sm font-semibold text-ember">
             <CalendarDays className="h-4 w-4" aria-hidden="true" />
-            November is AI Awareness Month
+            November is AI Literacy Month
           </div>
           <h1 className="max-w-5xl font-display text-5xl font-semibold leading-tight text-white sm:text-6xl lg:text-7xl">
-            Claiming November as AI Awareness Month
+            Claiming November as AI Literacy Month
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-200 sm:text-xl">
             A national movement to help students, educators, workers, entrepreneurs, civic
@@ -69,7 +69,7 @@ export default function Hero() {
           initial={{ opacity: 0, scale: 0.94 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.15, duration: 0.8 }}
-          aria-label="Animated digital flame representing public AI awareness"
+          aria-label="Animated digital flame representing public AI literacy"
         >
           <div className="absolute inset-0 rounded-full bg-aurora/10 blur-3xl" />
           <div className="digital-orb absolute left-1/2 top-1/2 h-72 w-72 -translate-x-1/2 -translate-y-1/2 rounded-full border border-aurora/40 bg-[radial-gradient(circle_at_45%_35%,rgba(255,255,255,.92),rgba(35,211,255,.56)_18%,rgba(139,92,246,.32)_44%,rgba(5,8,22,.06)_68%)] shadow-glow sm:h-96 sm:w-96" />
@@ -82,7 +82,7 @@ export default function Hero() {
           <div className="absolute bottom-12 right-20 inline-flex items-center gap-2 rounded-full border border-white/15 bg-night/70 px-4 py-3 text-sm font-semibold text-white backdrop-blur">
             Nov 30
             <ArrowRight className="h-4 w-4 text-ember" aria-hidden="true" />
-            AI Awareness Day
+            AI Literacy Day
           </div>
         </motion.div>
       </div>

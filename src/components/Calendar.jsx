@@ -6,7 +6,7 @@ export default function Calendar() {
   return (
     <section id="calendar" className="section-pad border-y border-white/10 bg-white/[0.035]">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionTitle eyebrow="November Campaign" title="30 Days of AI Awareness">
+        <SectionTitle eyebrow="November Campaign" title="30 Days of AI Literacy">
           A sample calendar communities can adapt for workshops, classroom prompts, social posts,
           library programs, workplace learning, and civic conversations.
         </SectionTitle>

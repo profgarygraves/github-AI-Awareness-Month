@@ -26,7 +26,7 @@ function WhyNovember() {
   return (
     <section id="why-november" className="section-pad border-y border-white/10 bg-white/[0.035]">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.92fr_1.08fr] lg:px-8">
-        <SectionTitle eyebrow="Why November?" title="A Turning Point in Public AI Awareness" align="left">
+        <SectionTitle eyebrow="Why November?" title="A Turning Point in Public AI Literacy" align="left">
           November is a powerful symbolic month because ChatGPT launched publicly on November 30,
           2022, helping bring generative AI into public awareness.
         </SectionTitle>
@@ -38,7 +38,7 @@ function WhyNovember() {
           transition={{ duration: 0.55 }}
         >
           <p className="text-lg leading-8 text-slate-200">
-            November 30 marks a turning point in public awareness of generative AI. AI Awareness
+            November 30 marks a turning point in public awareness of generative AI. AI Literacy
             Month uses that moment as an invitation to broaden the conversation beyond any single
             tool or company and toward public literacy, workforce readiness, education, ethics,
             creativity, and civic life.
@@ -48,7 +48,7 @@ function WhyNovember() {
             human-centered values.
           </p>
           <p className="mt-5 text-lg leading-8 text-slate-200">
-            Following Cybersecurity Awareness Month in October, AI Awareness Month in November
+            Following Cybersecurity Awareness Month in October, AI Literacy Month in November
             creates a natural civic learning sequence. October helps communities focus on risk,
             safety, and protection. November can help communities move from fear to empowerment:
             protect yourself, then empower yourself.
@@ -85,7 +85,7 @@ function FinalCta() {
       <div className="absolute inset-x-0 top-1/2 -z-10 h-40 -translate-y-1/2 bg-gradient-to-r from-transparent via-aurora/20 to-transparent blur-3xl" />
       <div className="mx-auto max-w-5xl rounded-[2rem] border border-aurora/25 bg-gradient-to-br from-aurora/14 via-violet/12 to-ember/12 p-8 text-center shadow-glow sm:p-12">
         <h2 className="font-display text-3xl font-semibold text-white sm:text-5xl">
-          Help light the AI Awareness flame.
+          Help light the AI Literacy flame.
         </h2>
         <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-slate-200">
           This November, host a workshop, start a conversation, issue a proclamation, teach one AI

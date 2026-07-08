@@ -22,7 +22,7 @@ export const eventIdeas = [
   {
     audience: 'Cities and Counties',
     ideas: [
-      'AI Awareness Day proclamations',
+      'AI Literacy Day proclamations',
       'Public library AI sessions',
       'Civic AI literacy forums',
       'Responsible AI policy conversations',
@@ -31,7 +31,7 @@ export const eventIdeas = [
   {
     audience: 'Schools',
     ideas: [
-      'Parent AI awareness nights',
+      'Parent AI literacy nights',
       'Student creativity challenges',
       'AI safety and misinformation lessons',
     ],

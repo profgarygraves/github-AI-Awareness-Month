@@ -22,11 +22,11 @@ export const calendarDays = [
   'AI and Ethics',
   'AI and Human Judgment',
   'AI Tools Showcase',
-  'AI Family Awareness Day',
+  'AI Family Literacy Day',
   'AI and the Future of Work',
   'AI for Nonprofits',
   'AI Policy Conversation',
   'Student AI Showcase',
   'Community AI Challenge',
-  'AI Awareness Day',
+  'AI Literacy Day',
 ];

@@ -24,7 +24,7 @@ export default function Navbar() {
             <Sparkles className="h-5 w-5 text-aurora" aria-hidden="true" />
           </span>
           <span className="font-display text-base font-semibold text-white sm:text-lg">
-            AI Awareness Month
+            AI Literacy Month
           </span>
         </a>
 

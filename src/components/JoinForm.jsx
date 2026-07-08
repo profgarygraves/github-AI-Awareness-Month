@@ -10,7 +10,7 @@ export default function JoinForm() {
   return (
     <section id="join" className="section-pad border-y border-white/10 bg-white/[0.035]">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-[0.82fr_1.18fr] lg:px-8">
-        <SectionTitle eyebrow="Join the Movement" title="Help Light the AI Awareness Flame" align="left">
+        <SectionTitle eyebrow="Join the Movement" title="Help Light the AI Literacy Flame" align="left">
           Share your interest in hosting events, receiving proclamation materials, getting toolkit
           updates, offering feedback, or becoming a founding partner.
         </SectionTitle>
@@ -32,7 +32,7 @@ export default function JoinForm() {
           </div>
           <iframe
             src={googleFormEmbedUrl}
-            title="AI Awareness Month Interest Form"
+            title="AI Literacy Month Interest Form"
             className="h-[82rem] w-full bg-white"
             loading="lazy"
           >

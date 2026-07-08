@@ -17,7 +17,7 @@ export default function AboutMovement() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-10 lg:grid-cols-[0.9fr_1.1fr]">
           <SectionTitle eyebrow="About the Movement" title="The Future Should Be Shaped by People" align="left">
-            AI Awareness Month began as a grassroots education and workforce initiative inspired
+            AI Literacy Month began as a grassroots education and workforce initiative inspired
             by the California Community Colleges AI Fellows Program. The first imagined scale was
             California's 116 community colleges and beyond. The goal is to help every community
             move from curiosity to capability with AI while promoting responsible, ethical use.
